@@ -1,0 +1,22 @@
+(dp0
+S'flesh'
+p1
+(lp2
+S'meat\n'
+p3
+a(lp4
+(S'20180501'
+p5
+I0
+tp6
+aasS'kitchen'
+p7
+(lp8
+S'the place where you cook'
+p9
+a(lp10
+(S'20180501'
+p11
+I0
+tp12
+aas.
