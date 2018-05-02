@@ -101,7 +101,7 @@ ENV/
 .mypy_cache/
 
 # pickle dumped objects
-.pkl
+*.pkl
 
 # Vocabulary files
-.csv
+*.csv
