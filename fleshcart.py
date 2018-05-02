@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf8
 
 import argparse
 import pickle
@@ -15,7 +15,6 @@ def read_progress(vocab_csv = None):
     if os.path.isfile(progress_file):
         with open(progress_file,"rb") as pickle_in:
             vocab_progress = pickle.load(pickle_in)
-            print vocab_progress
 
     if vocab_csv is not None:
         with open(vocab_csv) as vocab_f:
@@ -56,7 +55,6 @@ def main():
     args = arg_parser.parse_args()
 
     read_progress(args.vocab_csv)
-    print vocab_progress
 
     if args.add is not None:
         add_new_entry(args.add)
