@@ -1,3 +1,6 @@
+# pickle dumped objects
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,9 +102,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
-# pickle dumped objects
-*.pkl
-
-# Vocabulary files
-*.csv
